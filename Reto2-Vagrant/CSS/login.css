@@ -127,3 +127,46 @@ form p{
     text-align:center;
     background-color:rgba(215, 44, 44, 0.1);
 }
+
+@media screen
+and (max-width: 360px)
+
+ {
+
+
+    .derecha{
+        display: none;
+    }
+
+    .izquierda{
+        width: 95vw;
+        height: 95vh;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen
+and (max-width: 730px)
+{
+
+
+    .derecha{
+        display: none;
+    }
+
+    .izquierda{
+        width: 95vw;
+        height: 95vh;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+

@@ -202,3 +202,31 @@ img{
     width: 86px;
     height: auto;
 }
+
+
+ @media screen
+ and (max-width: 360px)
+
+ {
+
+     .logo-menu {
+         display: none;
+
+     }
+     .nav-item{
+         margin-right: 30px;
+     }
+ }
+
+ @media screen and (max-width: 900px) {
+
+     .logo-menu {
+         display:none;
+
+     }
+     .nav-item{
+         margin-right: 10px;
+     }
+ }
+
+

@@ -1,9 +1,9 @@
 <html>
     <head>
        <!-- <link rel="stylesheet" href="/CSS/normalize.css">-->
+        <meta name="viewport" content="width=device-width, user-scalable=no">
         <link rel="stylesheet" href="../CSS/global.css">
         <link rel="stylesheet" href="../CSS/login.css">
-
         <script src="../javascript/jquery-3.4.1.min.js"></script>
         <script src="../javascript/login.js"></script>
 

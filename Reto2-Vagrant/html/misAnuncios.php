@@ -34,6 +34,8 @@ $dbh = connect();
                               <div class='descripcion'>"  . "<p> Descripcion: </p>" . $row["descripcion"] . "</div>
                               <div class='nomCategoria'>" . "<p> Categoria: </p>" . $row["nomCategoria"] . "</div>
                               <div class='nomEmpresa'>" . "<p> Empresa: </p>" . $row["nomEmpresa"] . "</div>
+                                <div class='email'>" . "<p> Email: </p>" . $row["email"] . "</div>
+                              <div class='telefono'>" . "<p> Telefono: </p>" . $row["telefono"] . "</div>
                               <div class='nomSubcategoria'>" . "<p> Subcategoria </p>" . $row["nomSubcategoria"] . "</div>
                             </div>
                         </div>

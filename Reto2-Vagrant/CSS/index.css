@@ -63,8 +63,8 @@ background-color: #f3f3f3;
    display: none;
 }
 .descripcion{
-    width: 500px;
-    height: 100px;
+    width: 90%;
+    height: 10%;
     flex-direction: column;
     display: flex;
     border-bottom: 1px solid var(--thundercode-secondary-color);
@@ -91,7 +91,8 @@ background-color: #f3f3f3;
     background-color:rgba(252, 181, 0, 0.1) ;
 }
    .telefono{
-       width: 500px;
+       width: 90%;
+       height: 10%;
        flex-direction: column;
        display: flex;
        border-bottom: 1px solid var(--thundercode-secondary-color);
@@ -99,7 +100,8 @@ background-color: #f3f3f3;
    }
 
    .email{
-       width: 500px;
+       width: 90%;
+       height: 10%;
        flex-direction: column;
        display: flex;
        border-bottom: 1px solid var(--thundercode-secondary-color);
@@ -107,7 +109,7 @@ background-color: #f3f3f3;
    }
 
 .nomCategoria{
-    width: 500px;
+    width: 90%;
     flex-direction: column;
     display: flex;
     border-bottom: 1px solid var(--thundercode-secondary-color);
@@ -115,14 +117,14 @@ background-color: #f3f3f3;
 }
 
 .nomEmpresa{
-    width: 500px;
+    width: 90%;
     flex-direction: column;
     display: flex;
     border-bottom: 1px solid var(--thundercode-secondary-color);
     padding: 10px;
 }
 .nomSubcategoria{
-    width: 500px;
+    width: 90%;
     flex-direction: column;
     display: flex;
     border-bottom: 1px solid var(--thundercode-secondary-color);
@@ -143,4 +145,24 @@ h2{
     padding: 10px;
 }
 
+.visible{
+    width: 90%;
+}
+
+@media screen
+and (max-width: 360px)
+
+{
+
+    .Anuncio {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .Anuncio {
+        width: 45%;
+    }
+}
 

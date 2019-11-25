@@ -50,3 +50,39 @@ color:white;
     flex-direction: column;
     align-items: center;
 }
+
+@media screen
+and (max-width: 360px)
+
+{
+
+.contact{
+    display: none;
+    }
+
+    .redes{
+        display: none;
+    }
+    footer{
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .contact{
+        display: none;
+    }
+    .redes{
+        display: none;
+    }
+    footer{
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+    }
+}
+
+

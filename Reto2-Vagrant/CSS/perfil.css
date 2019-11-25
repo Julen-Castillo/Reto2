@@ -19,7 +19,7 @@ strong {
 
 .cPerfil{
     width: 500px;
-    height: 500px;
+    height: 60%;
     background-color: white;
     border-radius: 3px;
     box-shadow: 2px 2px 10px 0 rgb(51,51,0.2);
@@ -54,3 +54,13 @@ strong {
     justify-content: center;
     align-items: center;
 }
+@media screen
+and (max-width: 360px)
+
+{
+
+    .cPerfil {
+        width: 90%;
+    }
+}
+

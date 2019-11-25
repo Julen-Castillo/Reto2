@@ -4,7 +4,7 @@
 <script src="../javascript/index.js"></script>
 <script src="../javascript/login.js"></script>
 <script src="../javascript/filtros.js"></script>
-
+<meta name="viewport" content="width=device-width, user-scalable=no">
 <link rel="stylesheet" href="../CSS/index.css">
 <link rel="stylesheet" href="../CSS/global.css">
 <link rel="stylesheet" href="../CSS/filtros.css">
@@ -33,6 +33,8 @@ $dbh = connect();
                               <div class='descripcion'>"  . "<p> Descripcion: </p>" . $row["descripcion"] . "</div>
                               <div class='nomCategoria'>" . "<p> Categoria: </p>" . $row["nomCategoria"] . "</div>
                               <div class='nomEmpresa'>" . "<p> Empresa: </p>" . $row["nomEmpresa"] . "</div>
+                              <div class='email'>" . "<p> Email: </p>" . $row["email"] . "</div>
+                              <div class='telefono'>" . "<p> Telefono: </p>" . $row["telefono"] . "</div>
                               <div class='nomSubcategoria'>" . "<p> Subcategoria </p>" . $row["nomSubcategoria"] . "</div>
                             </div>
                         </div>

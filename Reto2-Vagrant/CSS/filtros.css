@@ -1,5 +1,5 @@
 #buscador{
-    width: 40%;
+    width: 60%;
     height:4%;
     position: fixed;
     top: 10%;
@@ -89,7 +89,7 @@ select{
     width: 45px;
     height: auto;
     top:0%;
-    left: 0%;
+    left: 5%;
     margin:10px;
 }
 .abrirFiltros:hover{
@@ -99,3 +99,21 @@ select{
     width: 45px;
     height: auto;
 }
+
+@media screen
+and (max-width: 360px)
+{
+
+    .abrirFiltros{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .abrirFiltros{
+        display: none;
+    }
+}
+

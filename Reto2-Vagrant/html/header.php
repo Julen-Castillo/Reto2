@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="../CSS/header.css">
     <link  rel="stylesheet" href="../CSS/global.css">
     <script src="../javascript/index.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
 </head>
 <body>
 <nav role="navigation" class="nav">

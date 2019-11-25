@@ -18,7 +18,7 @@ function selectAnuncioFiltro($dbh,$titulo,$categoria,$subcategoria,$empresa){
 
     $data  = array('cla'=>$cla);
 
-    $stmt = $dbh->prepare("select a.idAnuncio,a.titulo,a.descripcion,a.imagen,c.nomCategoria,e.nomEmpresa,s.nomSubcategoria 
+    $stmt = $dbh->prepare("select a.idAnuncio,a.titulo,a.descripcion,a.imagen,c.nomCategoria,e.nomEmpresa,s.nomSubcategoria,e.email,e.telefono 
                            From Anuncio as a
                            Inner join Empresa as e on a.idEmpresa = e.idEmpresa 
                            Inner join Categoria as c on a.idCategoria = c.idCategoria 
